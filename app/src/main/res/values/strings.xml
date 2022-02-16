@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">箇条書きメモ</string>
+    <string name="btn_add">インデックス追加</string>
+    <string name="btn_clear">クリア</string>
+    <string name="btn_send">保存</string>
+    <string name="dialog_title">タイトル設定</string>
+    <string name="dialog_msg">メモのタイトルを設定してください</string>
+    <string name="dialog_btn_ok">設定</string>
+    <string name="dialog_btn_ng">キャンセル</string>
+    <string name="dialog_attention">内容入力してください</string>
+    <string name="dialog_ok_toast">を作成しました。</string>
+    <string name="dialog_ng_toast">キャンセルしました</string>
+    <string name="menu_list_options_list">作成済みメモ</string>
+    <string name="menu_list_go_top_list">新規作成画面に戻る</string>
+    <string name="menu_list_context_delete">削除</string>
+    <string name="menu_list_context_title">操作を選んでください</string>
+</resources>
