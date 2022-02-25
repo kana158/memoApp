@@ -29,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onPause(){
+        EditText input = findViewById(R.id.memoText);
+        input.setText("");
+        super.onPause();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_options_menu_list,menu);

@@ -97,10 +97,11 @@ public class MemoShowActivity extends AppCompatActivity {
                     String sqlUpdate = "UPDATE summarizeMemos SET name = '" +titleTextStr + "', note = '" + inputStr1 +  "' WHERE _id = " + idx;
                     db.execSQL(sqlUpdate);
                     db.close();
-                    Intent intent = new Intent(MemoShowActivity.this,MemoStockActivity.class);
+                    Intent intent = new Intent(MemoShowActivity.this,MainActivity.class);
                     startActivity(intent);
                     String msg = "更新しました。";
                     Toast.makeText(MemoShowActivity.this,msg,Toast.LENGTH_LONG).show();
+                    finish();
                     break;
             }
         }
